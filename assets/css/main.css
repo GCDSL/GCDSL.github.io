@@ -1755,7 +1755,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			/*background: ur(l"images/overlay.png");*/
 			border-radius: 8px;
 		}
 
@@ -1766,8 +1766,30 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			/*width: 100%;*/
+			margin-left: auto;
+ 			margin-right: auto;
+			height: 120px;
+			width: 120px;
+			/*float: left;*/
+		    /*width:  200px;*/
+		    /*height: 200px;*/
+		    /*object-fit: cover;*/
+			/*margin: 0 0 2em 0;*/
+		}
+
+		.image.card {
+			height: 200px;
+			display: block;
+			margin-left: auto;
+ 			margin-right: auto;
+		}
+
+		.image.half_col {
+			display: block;
+			width: 300px;
 			margin: 0 0 2em 0;
+			style: float:left;
 		}
 
 		.image.left {
@@ -1780,10 +1802,10 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
+		}
 
 /* Button */
 
@@ -2569,7 +2591,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#footer a {
@@ -3112,3 +3134,58 @@ input, select, textarea {
 			}
 
 	}
+
+
+ /* Three columns side by side */
+.column2 {
+  float: left;
+  width: 25%;
+  /*margin-bottom: 16px;*/
+  /*padding: 0 8px;*/
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: inherit;
+}
+
+/* Some left and right padding inside the container */
+.container2 {
+  padding: 0 5px;
+}
+
+/* Clear floats */
+.container2::after, .row::after { 
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title2 {
+  color: grey;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #555;
+} 
