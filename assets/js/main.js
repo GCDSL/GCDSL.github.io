@@ -13,8 +13,8 @@
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1680px' ],
-			large:   [ '981px',   '1280px' ],
-			medium:  [ '737px',   '980px'  ],
+			large:   [ '1061',   '1280px' ],
+			medium:  [ '737px',   '1060px'  ],
 			small:   [ '361px',   '736px'  ],
 			xsmall:  [ null,      '360px'  ]
 		});
@@ -46,7 +46,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
