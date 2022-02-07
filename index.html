@@ -58,13 +58,85 @@
 				</nav>
 
 			<!-- Banner -->
-				<section id="banner">
+				<!-- <section id="banner">
 					<div class="content">
-						<!-- <h2>Welcome to TXT by HTML5 UP</h2> -->
-						<!-- <p>A free responsive site template built on HTML5, CSS3, and some other stuff</p> -->
-						<!-- <a href="#main" class="button scrolly">Alright let's go</a> -->
+						<h2>Welcome to TXT by HTML5 UP</h2>
+						<p>A free responsive site template built on HTML5, CSS3, and some other stuff</p>
+						<a href="#main" class="button scrolly">Alright let's go</a>
 					</div>
+				</section> -->
+				<section>
+					<!-- <div class="slideshow-container">
+
+					<div class="mySlides fade">
+					  <div class="numbertext">1 / 3</div>
+					  <img src="images/banner.jpg" style="width:100%">
+					  <div class="text">Caption Text</div>
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">2 / 3</div>
+					  <img src="images/banner1.jpg" style="width:100%">
+					  <div class="text">Caption Two</div>
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">3 / 3</div>
+					  <img src="images/banner.jpg" style="width:100%">
+					  <div class="text">Caption Three</div>
+					</div>
+
+					</div>
+					<br>
+
+					<div style="text-align:center">
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div> -->
+					<div id="slide">
+				  <div class="slideshow-container">
+				    <div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%"> </div>
+				    <div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%"> </div>
+				    <div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%"> </div>
+				    <div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%"> </div>
+				    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+				  <br>
+				  <div style="text-align:center"> 
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				  <span class="dot" onclick="currentSlide(4)"></span>
+				   </div>
 				</section>
+				<!-- <div id="slideshow">
+			        <div class="slide-wrapper">
+			            <div class="slide">
+			                <h1 class="slide-number">
+			                    GeeksforGeeks
+			                </h1>
+			                <img src="images/banner.jpg" alt="" />
+			            </div>
+			            <div class="slide">
+			                <h1 class="slide-number">
+			                    A computer science portal
+			                </h1>
+			                <img src="images/banner.jpg" alt="" />
+			            </div>
+			            <div class="slide">
+			                <h1 class="slide-number">
+			                    This is an example of
+			                </h1>
+			                <img src="images/banner.jpg" alt="" />
+			            </div>
+			            <div class="slide">
+			                <h1 class="slide-number">
+			                    Slideshow with HTML and CSS only
+			                </h1>
+			                <img src="images/banner.jpg" alt="" />
+			            </div>
+			        </div>
+			    </div> -->
 
 			<!-- Main -->
 				<section id="main">
@@ -75,7 +147,7 @@
 								<!-- Features -->
 									<section class="box features">
 										<h2 class="major"><span>About Us</span></h2>
-										<p>Our group is dedicated towards creating intelligent systems that are able to autonomously operate in complex and diverse scenarios.</p>
+										<p>Major areas that we work on are: </p>
 										<div>
 											<div class="row">
 												<div class="col-3 col-6-medium col-12-small">
@@ -130,12 +202,12 @@
 														</section>
 
 												</div>
-												<div class="col-12">
+												<!-- <div class="col-12">
 													<ul class="actions">
 														<li><a href="#" class="button large">Do Something</a></li>
 														<li><a href="#" class="button alt large">Think About It</a></li>
 													</ul>
-												</div>
+												</div> -->
 											</div>
 										</div>
 									</section>
@@ -143,7 +215,84 @@
 							</div>
 							<div class="col-12">
 
-								<!-- Blog -->
+								<!-- Features -->
+									<section class="box features">
+										<h2 class="major"><span>Latest Updates</span></h2>
+										<!-- <p>Major areas that we work on are: </p> -->
+										<div>
+											<div class="row">
+												<div class="col-3 col-6-medium col-12-small">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+															<h3><a href="#">Seminars</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+																<br>
+																<a href="#">Read more</a>
+															</p>
+														</section>
+
+												</div>
+												<div class="col-3 col-6-medium col-12-small">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="publications.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+															<h3><a href="publications.html">Recent Publications</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																<br>
+																<a href="publications.html">Read more</a>
+															</p>
+														</section>
+
+												</div>
+												<div class="col-3 col-6-medium col-12-small">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+															<h3><a href="#">Notable Events</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+																<br>
+																<a href="#">Read more</a>
+															</p>
+														</section>
+
+												</div>
+												<div class="col-3 col-6-medium col-12-small">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<h3><a href="#">Conferences</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+																<br>
+																<a href="#">Read more</a>
+															</p>
+														</section>
+
+												</div>
+												<!-- <div class="col-12">
+													<ul class="actions">
+														<li><a href="#" class="button large">Do Something</a></li>
+														<li><a href="#" class="button alt large">Think About It</a></li>
+													</ul>
+												</div> -->
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<!-- <div class="col-12">
+
 									<section class="box blog">
 										<h2 class="major"><span>News</span></h2>
 										<div>
@@ -151,7 +300,6 @@
 												<div class="col-9 col-12-medium">
 													<div class="content">
 
-														<!-- Featured Post -->
 															<article class="box post">
 																<header>
 																	<h3><a href="#">Here's a really big heading</a></h3>
@@ -177,7 +325,6 @@
 												<div class="col-3 col-12-medium">
 													<div class="sidebar">
 
-														<!-- Archives -->
 															<ul class="divided">
 																<li>
 																	<article class="box post-summary">
@@ -287,7 +434,7 @@
 										</div>
 									</section>
 
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</section>
@@ -300,16 +447,16 @@
 
 								<!-- Contact -->
 									<section>
-										<h2 class="major"><span>Get in touch</span></h2>
 										<ul class="contact">
+											<h2 class="major"><span>Get in touch</span></h2>
 											<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
 											<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
 											<li><a class="icon brands fa-instagram" href="#"><span class="label">Instagram</span></a></li>
 											<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
 											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
 										</ul>
+									<p>Admin: Mohit (mohitsushil83@gmail.com) <br> Contributors: Mohit, Ankit</p>
 									</section>
-
 							</div>
 						</div>
 
@@ -322,7 +469,6 @@
 
 					</div>
 				</footer>
-
 		</div>
 
 		<!-- Scripts -->
@@ -333,6 +479,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slideshow.js"></script>
 
 	</body>
 </html>
